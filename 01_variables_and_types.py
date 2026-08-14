@@ -6,6 +6,7 @@ type explicitly. The type is inferred from the value assigned to it.
 """
 
 # Integers - whole numbers, positive or negative
+import utils.session
 age = 25
 print("age:", age, "| type:", type(age))
 
